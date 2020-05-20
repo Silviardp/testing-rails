@@ -14,7 +14,7 @@ class ProductsTest < ApplicationSystemTestCase
 
     fill_in "product_name", with: "Le Wagon"
     fill_in "product_tagline", with: "Change your life: Learn to code"
-    save_and_open_screenshot
+    # save_and_open_screenshot
 
     click_on 'Create Product'
     save_and_open_screenshot
